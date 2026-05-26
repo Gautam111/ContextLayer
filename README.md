@@ -3,6 +3,8 @@
 
 ContextLayer goes beyond keyword-based social listening. It feeds social images, meme screenshots, and post text into a vision-language model (Claude 3.5 Sonnet) to detect:
 
+  npm install<img width="1213" height="897" alt="Demo1" src="https://github.com/user-attachments/assets/a604654b-41dd-45b6-bb85-087f01c9036c" />
+
 - **Brand logo appearances** in images and memes
 - **Visual sentiment** (positive / neutral / negative / ironic)
 - **Ironic / sarcastic context** that text-only tools miss
@@ -61,8 +63,13 @@ contextlayer/
 └── README.md
 ```
 
-See `docs/QUICK_START.md` to get running in ~15 minutes.
+## Quick Start
 
+To run locally:
+  cd dashboard
+  npm install
+  npm run dev
+  Open http://localhost:5173
 ---
 
 ## License
