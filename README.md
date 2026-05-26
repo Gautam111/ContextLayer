@@ -63,13 +63,24 @@ contextlayer/
 └── README.md
 ```
 
-## Quick Start
+## 🚀 Quick Start
 
-To run locally:
+Get the dashboard running locally in under a minute.
+
+### Prerequisites
+- [Node.js](https://nodejs.org) (LTS version, v18 or higher)
+- npm (comes bundled with Node.js)
+
+### Run Locally
+
+```bash
 cd dashboard
 npm install
 npm run dev
-Open http://localhost:5173
+```
+
+Then open **[http://localhost:5173](http://localhost:5173)** in your browser. 🎉
+
 ---
 
 ## License
